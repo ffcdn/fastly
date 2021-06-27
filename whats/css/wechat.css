@@ -23,7 +23,7 @@ body,html{height:100%;font-family:'Helvetica Neue', Helvetica, Arial, 'PingFang 
 .ulgywoiksazn .lrjfcxlgwi .chat_box .mp3{height:9vw; width:auto}
 
 .iknxvwhmier .chat_bar {height:18vw;}
-.iknxvwhmier .chat_bar .bar_img {position:fixed;height:13vw;width:100vw;bottom:0;left:0;background-image:url('input_en.png');background-size:100% auto;}
+.iknxvwhmier .chat_bar .bar_img {position:fixed;height:13vw;width:100vw;bottom:0;left:0;background-image:url('https://cdn.jsdelivr.net/gh/ffcdn/fastly@6/whats/img/input_en.png');background-size:100% auto;}
 #mp3{width: 10px;height: 10px;position: fixed;z-index: -1;}
 
 .popup-body {width: 80vw;margin-top: 15vw;left:10vw;margin-left: 0;}
