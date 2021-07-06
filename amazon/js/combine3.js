@@ -551,8 +551,7 @@ function incrementValue1() {
         fn1_i();
         value = parseInt(get_Cookie('prog'));
         if (value > 3 && g_banner_ad == true) {
-            var qs =  + Math.round(Math.random() * 10000000)
-            jQuery("#banner_ad_share").html('<iframe src="'+qs+'" width="300" height="250" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"><\/iframe>')
+            loadAd();
             g_banner_ad = false
         }
         set_Cookie('prog', value + 1);
