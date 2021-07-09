@@ -194,9 +194,10 @@ html, body {
     display: block;
     float: left;
     height: 27px;
-    width: 80px;
-    background-position: -10px -50px;
+    width: 120px;
+    background-position: -74px -143px;
     margin-top: 13px;
+    margin-left: 70px;
     background-image: url(https://cdn.jsdelivr.net/gh/ffcdn/fastly/uefa/img/uefa-2021.jpg);
     background-size: 275px;
 }
