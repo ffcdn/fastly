@@ -197,7 +197,7 @@ html, body {
     width: 80px;
     background-position: -10px -50px;
     margin-top: 13px;
-    background-image: url(/uefa/img/uefa-2021.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/ffcdn/fastly/uefa/img/uefa-2021.jpg);
     background-size: 275px;
 }
 
