@@ -1,0 +1,243 @@
+.header {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #f6fcf8, #fff);
+}
+.header p {
+  padding: 1.066667rem 0 0.266667rem;
+  font-size: 0.373333rem;
+  color: #257944;
+}
+.header h3 {
+  font-size: 0.96rem;
+  color: #257944;
+  font-weight: 400;
+}
+.content {
+  margin-top: 1.333333rem;
+  padding: 0 0.8rem;
+  text-align: center;
+}
+.content h3 {
+  font-size: 0.56rem;
+  line-height: 2;
+  color: #000000;
+  text-align: center;
+}
+.main {
+  padding: 1.6rem 0 0.6rem;
+  text-align: center;
+  background: url(../images/wave_top.jpg) no-repeat;
+  background-size: contain;
+  background-color: #f7f9fb;
+}
+.main > h3 {
+  text-align: center;
+  margin-bottom: 0.266667rem;
+  font-size: 0.506667rem;
+  color: #070707;
+}
+.main > p {
+  text-align: center;
+}
+.main .cell {
+  margin-top: 0.4rem;
+}
+.main .cell .item {
+  display: flex;
+  padding: 0 0.68rem;
+  margin-bottom: 1.066667rem;
+}
+.main .cell .item img {
+  display: block;
+  width: 1.146667rem;
+  height: 1.146667rem;
+  margin-right: 0.266667rem;
+}
+.main .cell .item div {
+  text-align: left;
+}
+.main .cell .item div h3 {
+  margin-top: 0.133333rem;
+  font-size: 0.506667rem;
+  color: #070707;
+}
+.main .cell .item div p {
+  font-size: 0.426667rem;
+  color: #070707;
+}
+.container h3 {
+  text-align: center;
+  font-size: 0.506667rem;
+  color: #070707;
+}
+.container p {
+  padding: 0 0.6rem;
+}
+.container .sponsor {
+  display: block;
+  margin: 0.4rem auto;
+  width: 7.906667rem;
+}
+.container .sponsor {
+  padding: 0 20px;
+}
+.container .sponsor > p {
+  padding: 0 10px;
+}
+.container .sponsor .sponsor_img {
+  display: block;
+  margin: 0.53333rem auto;
+  width: 100%;
+}
+.container .spokesperson {
+  padding: 30px 20px 0;
+  background: url(../images/wave_top.jpg) no-repeat;
+  background-size: contain;
+  background-color: #f7f9fb;
+}
+.container .spokesperson h2 {
+  font-size: 90px;
+  color: #00804a;
+}
+.container .spokesperson > p {
+  padding: 0;
+  font-size: 16px;
+  color: #00804a;
+}
+.container .spokesperson .person {
+  display: flex;
+  justify-content: space-between;
+}
+.container .spokesperson .person .content {
+  flex: 1;
+  margin-top: 50px;
+  padding: 0;
+}
+.container .spokesperson .person .content > p:nth-child(1) {
+  color: #00804a;
+}
+.container .spokesperson .person .content p {
+  padding: 5px 0;
+  text-align: left;
+  font-size: 14px;
+}
+.container .spokesperson .person .content .registered {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00804a;
+  box-shadow: 0px 4px 24px 0px rgba(0, 128, 74, 0.21);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.container .spokesperson .person .spokesperson_img {
+  display: block;
+  width: 45%;
+}
+.container .spokesperson .wave_buttom {
+  margin-top: 30px;
+  height: 50px;
+  background: url(../images/wave_buttom.jpg) no-repeat;
+  background-size: contain;
+}
+.accordion {
+  padding: 10px;
+}
+.accordion > h3 {
+  text-align: center;
+  font-size: 0.506667rem;
+  color: #070707;
+}
+.accordion > p {
+  padding: 0 0.6rem;
+  margin-bottom: 10px;
+}
+.accordion .item {
+  margin: 5px 0;
+}
+.accordion .item h3 {
+  position: relative;
+  color: #00804a;
+  font-size: 20px;
+  font-weight: 400;
+}
+.accordion .item h3 span {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid;
+  border-color: transparent transparent #00804a #00804a;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.accordion .item p {
+  display: none;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+.footer {
+  padding: 0 0.693333rem 1.506667rem;
+  text-align: center;
+  color: #000;
+}
+.footer p {
+  font-size: 0.506667rem;
+  line-height: 1.8;
+  color: #000;
+}
+.footer .registered {
+  background-color: #f6b800;
+}
+.footer .shield {
+  display: block;
+  width: 2.133333rem;
+  margin: 20px auto;
+}
+.xinxin {
+  margin: 0.1rem 0;
+  padding-right: 0.4rem;
+  display: flex;
+  justify-content: center;
+}
+.xinxin i {
+  display: inline-block;
+  width: 0.426667rem;
+  padding: 0 0.053333rem;
+  color: #ffd200;
+}
+.floor {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.registered {
+  display: block;
+  margin: 0.533333rem auto 1.226667rem;
+  padding: 0.3rem 1.066667rem;
+  font-size: 0.426667rem;
+  color: #fff;
+  background-color: #257944;
+  box-shadow: 0px 4px 24px 0px rgba(37, 121, 68, 0.21);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.main_color {
+  color: #257944;
+}
+.p {
+  font-size: 0.426667rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #000000;
+}
+.wave_buttom {
+  height: 1.333333rem;
+  background: url(../images/wave_buttom.jpg) no-repeat;
+  background-size: contain;
+}
