@@ -162,7 +162,7 @@
             ele.addEventListener('click', registration, false);
         });
         function registration(e) {
-            _czc.push(["_trackEvent", "落地页按钮", "点击", "button", "1", "random"]);
+            gtag('event','ClickReg',{click:1});
             let linkSuffix = location.search
             location.href = "https://epidemicaid.com" + '/#/register' + linkSuffix
         }
@@ -172,13 +172,7 @@
         $(this).find('p').show();
     })
 </script>
-<script>
-    var _czc = _czc || [];
-    _czc.push(["_setAccount", "1280132687"]);
-</script>
-<div style="display:none">
-    <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1280132687&web_id=1280132687"></script>
-</div>
+
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHRBQENNXW"></script>
