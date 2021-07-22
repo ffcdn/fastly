@@ -1,0 +1,262 @@
+        
+        html {
+            font: 18px/1.5 'HelveticaNeue';
+            color: #454545;
+        }
+        
+        body {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 0;
+            background: white;
+        }
+        
+        .page_title {
+            margin: 1px 12px 1px;
+            font: bold 23px 'Helvetica';
+            color: #595959;
+        }
+        
+        .article_content {
+            margin: 10px 12px;
+        }
+        
+        .article_content p {
+            margin: 1em 0;
+        }
+        
+        .article_content img {
+            display: block;
+            width: 100%;
+        }
+        
+        .article_content img+p {
+            margin: .5em 0 1em;
+            font-size: 16px;
+            text-align: center;
+            font-style: italic;
+            color: #888;
+        }
+        
+        .article_content b {
+            color: red;
+        }
+        
+        .article_content b b {
+            font-size: 1.3em;
+        }
+        
+        .comment_section {
+            margin: 0 0 50px;
+        }
+        
+        .comment_section .section_title {
+            position: relative;
+            margin: 0 12px;
+            text-align: center;
+        }
+        
+        .comment_section .section_title:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: 0;
+            border-top: 1px solid #767373;
+        }
+        
+        .comment_section .section_title .text {
+            display: inline-block;
+            position: relative;
+            padding: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+            background: white;
+        }
+        
+        .comment_section .comment_list .comment {
+            display: flex;
+            margin: 0 12px;
+            border-bottom: 1px solid #767373;
+        }
+        
+        .comment_section .comment_list .comment .avatar {
+            width: 50px;
+            height: 50px;
+            margin: 10px 0 0;
+            border-radius: 100%;
+        }
+        
+        .comment_section .comment_list .comment .info {
+            flex: 1;
+            margin: 0 0 0 10px;
+            font-size: 16px;
+        }
+        
+        .comment_section .comment_list .comment .info .like {
+            float: right;
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #a7a7a7;
+        }
+        
+        .comment_section .comment_list .comment .info .name {
+            margin: 5px 0 0;
+            color: #a7a7a7;
+        }
+        
+        .comment_section .comment_list .comment .info .content {
+            color: #454545;
+        }
+        
+        .comment_section .comment_list .comment .info .time {
+            margin: 0 0 5px;
+            color: #a7a7a7;
+            font-size: 14px;
+        }
+        
+        .foot1 {
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            background-color: #fff;
+            height: 50px;
+            box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .05), 0 4px 3px 0 rgba(0, 0, 0, .05), 0 1px 5px 0 rgba(0, 0, 0, .05);
+            max-width: 720px;
+            width: 100%;
+            top: 0;
+        }
+        
+        .foot {
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            position: relative;
+            top: -1px;
+            box-shadow: 0 0 0 rgba(214, 2, 12, .8);
+            border-radius: 50%;
+            background: #c00;
+            animation: pulse 1.7s infinite;
+            content: "";
+        }
+        
+        .rwxk {
+            top: 150px;
+            right: 0.1em;
+            position: fixed;
+            padding: 0px;
+            z-index: 99999;
+            font-size: 16px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .you {
+            animation: twinkle1 0.6s infinite alternate;
+            -moz-animation: twinkle1 0.6s infinite alternate;
+            -ms-animation: twinkle1 0.6s infinite alternate;
+            -webkit-animation: twinkle1 0.6s infinite alternate;
+        }
+        
+        @keyframes twinkle1 {
+            0% {
+                -webkit-transform: scale(1.0);
+                -moz-transform: scale(1.0);
+                -ms-transform: scale(1.0);
+            }
+            100% {
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+            }
+        }
+        
+        .Jangan {
+            color: red;
+            height: 36px;
+            line-height: 36px;
+            background-image: linear-gradient(to bottom, #f9cf86 0%, #c85b4d 100%);
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        section li p strong {
+            color: #ff2941
+        }
+        
+        article h5 {
+            margin: 20px auto
+        }
+        
+        article h5 span {
+            color: #607fa6;
+            margin-right: 10px
+        }
+        
+        article h5 small {
+            font-size: 16px;
+            margin-left: 12px;
+            background: url(https://make.easym0ney.in/w1_dizhi28_com/static/picture/zan.png) no-repeat;
+            background-size: 18px;
+            padding-left: 19px
+        }
+        
+        section h2,
+        article h5 {
+            font-size: 16px;
+            color: #8c8c8c;
+            font-weight: 400
+        }
+        
+        section h2 {
+            border-top: 1px dotted #8c8c8c;
+            padding: 26px 0 8px;
+            text-align: center
+        }
+        
+        section li {
+            margin-top: 20px;
+            overflow: hidden
+        }
+        
+        section li h3 {
+            float: left;
+            width: 35px
+        }
+        
+        section li h3 img {
+            width: 35px
+        }
+        
+        section li p {
+            margin-left: 45px;
+            line-height: 160%
+        }
+        
+        section li p span {
+            display: block;
+            color: #999
+        }
+        
+        section li p img {
+            margin-bottom: 8px
+        }
+        
+        section li p small {
+            display: block;
+            color: #999;
+            font-size: 14px
+        }
+        
+        p,
+        h1,
+        h2,
+        h3,
+        ul,
+        li,
+        h5 {
+            padding: 0;
+            margin: 0;
+        }
