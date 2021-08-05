@@ -23,7 +23,7 @@ let blessedsj = my_ran(24, 1, 38);
 let blessed = "";
 for (let i = 0; i < 24; i++) {
   blessed +=
-    '<div class="blessed-pic-li"><img src = "./images/pic/pic (' +
+    '<div class="blessed-pic-li"><img src = "https://cdn.jsdelivr.net/gh/ffcdn/fastly@16/c/images/pic/pic (' +
     blessedsj[i] +
     ').jpeg" class = "blessed-pic-li-img" ></div>';
 }
@@ -244,7 +244,7 @@ for (let i = 1; i <= 8; i++) {
 nnum = nnum.reverse();
 for (let i = 0; i < 8; i++) {
   text += node
-    .replace("__IMG__", '<img src="./images/pic2/' + assj[i] + '.png">')
+    .replace("__IMG__", '<img src="https://cdn.jsdelivr.net/gh/ffcdn/fastly@16/c/images/pic2/' + assj[i] + '.png">')
     .replace("__NAME__",first[Math.floor(Math.random() * first.length)]+' '+sec[Math.floor(Math.random() * sec.length)])
     .replace("__TALK__",nnum[i])
     .replace("__C__",comments[i])
