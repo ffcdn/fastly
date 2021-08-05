@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #0A0A0A;
+}
+
+.banner {
+    height: 2.1rem;
+    background: url("../images/banner1@3x.png") no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-t {
+    height: 1.51rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-t-t {
+    width: 3.52rem;
+    height: 0.83rem;
+    background: url("../images/wenzi_1@3x.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.2rem;
+}
+
+.content-t-b {
+    width: 2.95rem;
+    height: 0.4rem;
+    background: url("../images/wenzi_2@3x.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.09rem;
+}
+
+.content-b {
+    width: 3.75rem;
+    height: 3.95rem;
+    background: url("../images/bg_1.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-b-t {
+    width: 3.26rem;
+    height: 0.8rem;
+    background: url("../images/wenzi_3@3x.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.14rem;
+}
+
+.content-b-m {
+    width: 2.38rem;
+    height: 0.3rem;
+    background: url("../images/bg_2.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.18rem;
+    position: relative;
+}
+
+.content-b-m-completer {
+    /* width: 1.66rem; */
+    height: 0.14rem;
+    background: linear-gradient(90deg, #FFBD00 0%, #D8A000 40%, #D53973 70%, #D43528 100%);
+    position: absolute;
+    left: 0.15rem;
+    top: 0.08rem;
+    border-radius: 0.07rem;
+}
+
+.content-b-m-font {
+    line-height: 0.28rem;
+    font-size: 0.11rem;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0.66rem;
+}
+
+.content-b-b {
+    width: 1.71rem;
+    height: 0.45rem;
+    background: url("../images/button.png") no-repeat;
+    background-size: cover;
+    margin-top: 0.34rem;
+}
+
+.content-xian1 {
+    width: 3.55rem;
+    height: 0.01rem;
+    margin-top: 0.52rem;
+    background: #000000;
+}
+
+.content-xian2 {
+    width: 3.55rem;
+    height: 0.01rem;
+    background: #222222;
+}
+
+.blessed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -0.91rem;
+}
+
+.blessed-title {
+    width: 1.51rem;
+    height: 0.26rem;
+    background: url("../images/blessed@3x.png") no-repeat;
+    background-size: cover;
+}
+
+.blessed-pic {
+    width: 3.04rem;
+    height: 1.14rem;
+    margin-top: 0.06rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blessed-pic-li {
+    width: 0.28rem;
+    height: 0.28rem;
+    border: 0.01rem solid #FFFFFF;
+    border-radius: 0.05rem;
+    overflow: hidden;
+    margin: 0.04rem;
+}
+
+.blessed-pic-li img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blessed-num {
+    color: #7E7e7e;
+}
+
+.blessed-num-num {
+    color: #E7AB00;
+    font-size: 0.14rem;
+}
+
+.talk {
+    width: 3.55rem;
+    margin: auto;
+    margin-top: 0.3rem;
+    margin-bottom: 0.45rem;
+}
+
+.talk-title {
+    font-size: 0.18rem;
+    color: #7E7E7E;
+}
+
+.talk-list-li {
+    height: 0.78rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+.talk-list-li-ll{
+    display: flex;
+}
+.talk-list-li-l {
+    width: 0.38rem;
+    height: 0.38rem;
+    overflow: hidden;
+    border: 0.01rem solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.talk-list-li-l img {
+    width: 100%;
+}
+.talk-list-li-m{
+    margin-left: 0.1rem;
+    max-width: 2.45rem;
+}
+.talk-list-li-m-name {
+    font-size: 0.14rem;
+    color: #7E7E7E;
+    line-height: 0.17rem;
+}
+
+.talk-list-li-m-content {
+    font-size: 0.14rem;
+    color: #FFFFFF;
+    line-height: 0.17rem;
+    margin-top: 0.04rem;
+}
+
+.talk-list-li-m-time {
+    color: #7E7E7E;
+    line-height: 0.17rem;
+    margin-top: 0.06rem;
+}
+.talk-list-li-r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talk-list-li-r-icon{
+    width: 0.16rem;
+    height: 0.16rem;
+    background: url("../images/icon_praise_14_2@3x.png") no-repeat;
+    background-size: cover;
+}
+.talk-list-li-r-font{
+    color: #7E7E7E;  
+    margin-top: 0.04rem;
+}
+.talk-list-li-r-font-check{
+    color: #E00011
+}
+.talk-list-li-r-icon-check{
+    background: url("../images/icon_praise_14@3x.png") no-repeat;
+    background-size: cover;
+}
